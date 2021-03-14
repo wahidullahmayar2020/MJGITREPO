@@ -14,7 +14,7 @@ obj1.isRaining(true);
 obj1.print5Times();
 
 
-System.out.println(obj1.returnGreater(122, 56));
+System.out.println(obj1.returnGreater(122,50));
 
 obj1.printEvenOdd(5);
 

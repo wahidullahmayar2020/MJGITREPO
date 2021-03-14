@@ -83,7 +83,10 @@ public class MoreMethodExamples {
 	  */
 	
 	 double returnTheArraySum(double [] arr) {
+		
+		 
 		 double sum=0;
+		 
 		 for(double element :arr) {
 			 sum=sum+element;
 		 }
