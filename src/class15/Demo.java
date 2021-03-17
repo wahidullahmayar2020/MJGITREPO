@@ -14,6 +14,7 @@ public class Demo {
 		
 		String str3="HOW ARE YOUR";
 		System.out.println(str3.toLowerCase());
+		String a="HU"+14;
 		
 		
 	}
