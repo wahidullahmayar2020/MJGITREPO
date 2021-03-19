@@ -13,6 +13,9 @@ public class StringVsStringbuilder {
 		System.out.println(var1==var4);
 		System.out.println(var1.equals(var2));
 		System.out.println(var1.equals(var4));
+		
+		StringBuilder sb=new StringBuilder("USA");
+		
 	}
 
 }
