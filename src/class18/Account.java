@@ -9,7 +9,7 @@ public class Account {
 	
 	
 	public boolean login(String enteredUserName,String enteredPasswrd) {
-		return enteredUserName.equals(actaulUserName)&& enteredPasswrd.equals(actualPassword);
+		return !enteredUserName.equals(actaulUserName)&& enteredPasswrd.equals(actualPassword);
 	}
 	
 	public boolean signUp(String enteredUserName,String enteredPasswrd,double enteredBalance) {

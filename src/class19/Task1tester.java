@@ -6,6 +6,7 @@ public class Task1tester {
 		// TODO Auto-generated method stub
 
 		Task1 obj1=new Task1();
+		System.out.println(obj1.name);
 		Task1 obj2=new Task1("Eva");
 		
 	}
