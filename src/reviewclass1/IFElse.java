@@ -10,7 +10,6 @@ public class IFElse {
 		}else {
 			System.out.println("No party lets practice Java");
 		}
-		
 		String userName="Khadija";
 		String password="pas123";
 		
