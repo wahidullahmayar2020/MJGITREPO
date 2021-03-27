@@ -1,9 +1,8 @@
 package class20;
 
-public class Teacher extends Person {
-    double salary;
-    String degree;
+public class Teacher extends Employee {
 
+    String degree;
     void teaches(){
         System.out.println(name+" teaching");
     }
