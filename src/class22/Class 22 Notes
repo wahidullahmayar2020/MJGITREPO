@@ -19,4 +19,8 @@ famous diamond problem(both parent classes have the same methods or fields)
 Super Keyword
 super keyword is used to access constructor,
 fields and methods of the parent class
+whenever this is a conflict between parent class and child class fields or methods(
+they have the same names) we can use super and this keywords to clarify this ambiguity.
+we can also use super() to call the parent class constructor(most widely used)
+
 
