@@ -1,3 +1,6 @@
 Overriding:
 when same method with same return type and same signature(name,parameters)
 exists in two classes which have inheritance relationship
+
+When we have same methods in the parent child classes with static modifier we say that we
+are hiding a method by re-declaring it instead of overriding a method
