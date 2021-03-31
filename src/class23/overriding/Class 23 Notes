@@ -1,1 +1,3 @@
 Overriding:
+when same method with same return type and same signature(name,parameters)
+exists in two classes which have inheritance relationship

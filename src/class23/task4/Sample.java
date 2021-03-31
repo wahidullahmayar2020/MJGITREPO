@@ -13,7 +13,7 @@ public class Sample {
         System.out.println(name+phoneNumber+address);
     }
 
-    //8:25
+    //8:27
     public static void main(String[] args) {
         Sample sample=new Sample();
        sample.printInfo("MJ");
