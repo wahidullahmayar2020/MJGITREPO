@@ -7,9 +7,12 @@ public class Bank {
     }
 }
 class BankOfAmerica extends Bank{
-    void chargeTransferFee(double amount){
-        System.out.println("Your fee is "+amount*0.05);
+    @Override
+    void chargeTransferFee(double amount) {
+        super.chargeTransferFee(amount);
+
     }
+
 }
 
 class Chase extends Bank{

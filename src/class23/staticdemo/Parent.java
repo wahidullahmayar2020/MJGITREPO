@@ -14,6 +14,7 @@ class Child extends Parent{
     /*static void printInfo(String name){
         System.out.println("name from Child "+name);
     }*/
+
     static  void method1(){
         System.out.println("from Child");
     }

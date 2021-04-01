@@ -14,6 +14,7 @@ class Son1 extends Azizi{
 class Son2 extends Azizi{
 
     void marry(){
+        super.marry();
         System.out.println("i want to marry taylor swift");
     }
 
