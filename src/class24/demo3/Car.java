@@ -12,11 +12,13 @@ public class Car {
    }
 }
 
-class  BWM extends Car{
+class  BMW extends Car{
     void start(){
         System.out.println("Use the Button to start me");
     }
-
+    void drifting(){
+        System.out.println("i can drift really good in rain");
+    }
 }
 
 class Tesla extends Car{
