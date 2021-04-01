@@ -12,3 +12,14 @@ public class Person {
 
 }
 
+class Employee extends Person{
+
+}
+
+class  Teacher extends Person{
+
+}
+
+class  Student extends Person{
+
+}
