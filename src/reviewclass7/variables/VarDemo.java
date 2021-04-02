@@ -44,7 +44,7 @@ public class VarDemo {
         for (int [] arr:arr2){
             for (int a:arr
                  ) {
-                System.out.println(a);
+                System.out.print(a+" ");
             }
             System.out.println();
         }

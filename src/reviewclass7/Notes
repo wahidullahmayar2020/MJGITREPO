@@ -37,3 +37,6 @@ Benefits:
 Can be accused anywhere in the class
 issues:
 keeps on occupying the memory as far as the object stays in th memory should be avoided
+static:
+static variables are shared across all the instances of a class they belong to class and
+can be accessed by just writing the name of the class
