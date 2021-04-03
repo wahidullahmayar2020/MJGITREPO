@@ -8,6 +8,7 @@ public class MethodDemo extends MethodsDemo1{
         //  method2.method1(); CE not accessible because the access modifier is not public
         MethodsDemo1.method3();
         MethodsDemo1 md=new MethodsDemo1();
+        md.method3();
       //  md.method5();
         method3();
         method1();
