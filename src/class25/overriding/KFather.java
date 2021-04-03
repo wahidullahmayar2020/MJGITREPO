@@ -7,9 +7,9 @@ public class KFather {
     }
 
     void eat(){
-        System.out.println(name+" like to eat Rice");
+        System.out.println(name+" likes to eat Rice");
     }
     void sleep(){
-        System.out.println(name+" like to sleep 6 hours");
+        System.out.println(name+" likes to sleep 6 hours");
     }
 }
