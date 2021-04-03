@@ -1,7 +1,7 @@
 package class25.overriding;
 
 public class Ozoda extends KFather{
-    Ozoda(String name) {
+    public Ozoda(String name) {
         super(name);
     }
 

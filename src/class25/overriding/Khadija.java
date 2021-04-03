@@ -2,7 +2,7 @@ package class25.overriding;
 
 public class Khadija extends KFather{
 
-    Khadija(String name){
+    public Khadija(String name){
         super(name);
     }
 

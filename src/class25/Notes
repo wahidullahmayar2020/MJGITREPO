@@ -19,3 +19,9 @@ Overriding is a mechanism in java through which parent and child classes can hav
 methods if child class does not like the implementation from the parent class child class
 can provide its own implementation and depending upon the object type proper method willl
 be called
+Overriding rules:
+1)we can not override private constructors because they do not participate in inheritance
+2) Static methods can not be overridden but we can re-declare them
+3) To override we should have an inheritance relationship
+4) the return type name and parameters of the method should be same
+5) we can not decrease the visibility but we can increase it
