@@ -25,7 +25,7 @@ public abstract class Vehicle {
     public abstract void start();
 }
 
-abstract class Car extends Vehicle {
+ abstract class Car extends Vehicle {
     String carType;
 
     Car(String vin_number, String carType) {
