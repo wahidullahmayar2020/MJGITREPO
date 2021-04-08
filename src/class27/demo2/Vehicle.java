@@ -7,6 +7,7 @@ public abstract class Vehicle {
     Vehicle(String vin_number) {
         totalVehicle++;
         this.vin_number = vin_number;
+        System.out.println("GrandParents constructor called ");
     }
 
     public void totalVehiclesCreated() {
@@ -30,6 +31,7 @@ abstract class Car extends Vehicle {
     Car(String vin_number, String carType) {
         super(vin_number);
         this.carType=carType;
+        System.out.println("Parent constructor called ");
     }
     @Override
     public  void drive(){
@@ -49,6 +51,7 @@ class BMW extends Car{
         super(vin_number, carType);
         this.make=make;
         this.model=model;
+        System.out.println("GrandChild constructor called ");
     }
 
     @Override
@@ -63,6 +66,32 @@ class BMW extends Car{
     }
 
     public  void display(){
+        System.out.println("we build "+make+" Model "+model+" "+carType+ " " +vin_number);
+    }
+}
+
+class Toyota extends Car{
+
+    String make;
+    String model;
+    Toyota(String vin_number, String carType,String make,String model) {
+        super(vin_number, carType);
+        this.make=make;
+        this.model=model;
+
+    }
+
+    @Override
+    public void start() {
+        System.out.println("Toyota can also start with remote");
+    }
+
+    @Override
+    public void speed() {
+        System.out.println("Toyota can go upto 200Km/H");
+    }
+
+    void display(){
         System.out.println("we build "+make+" Model "+model+" "+carType+ " " +vin_number);
     }
 }

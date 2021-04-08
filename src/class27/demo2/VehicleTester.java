@@ -9,5 +9,19 @@ public class VehicleTester {
         bmw.start();
         bmw.stop();
         bmw.speed();
+        bmw.drive();
+        bmw.display();
+
+        Vehicle vehicle=new Toyota("12345",
+                "SUV","Toyota","RAV4");
+        //vehicle.display();
+        vehicle.drive();
+        vehicle.start();
+
+        Car car=new Toyota("12345",
+                "SUV","Toyota","RAV4");
+        car.speed();
+
+
     }
 }
