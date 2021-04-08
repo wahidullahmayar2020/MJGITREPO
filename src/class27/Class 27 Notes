@@ -1,0 +1,66 @@
+Final Keyword:
+Final is a keyword in java that belongs to non access modifiers.
+we can use final keyword with variables,methods and classes.
+With variables:
+when used with variables we can not change the content of that variable.
+but if that variables points to an array or any other object we can change
+the contents of that array or object.
+
+class A{
+int number;
+String name;
+
+A(int number,String name){
+this.number=number;
+this.name=name;
+}
+public static void main(String[] args){
+
+
+final A var1=new A(12345,"Bryan");
+var1.number=100;
+var1=new A(45678,"Alec");
+final int[] arr={123,145,456}
+
+arr={100,58789}// CE because it is declared as final
+arr[0]=789
+
+}
+}
+
+Final Keyword with methods:
+class parent{
+final void printInfo(){
+sout"From Parent "
+}
+}
+
+class Child extends from Parent{
+@override
+void printInfo(){
+sout"From Child"   //CE Can not override a final method
+}
+}
+final with class:
+final class ABC{
+
+void method1(){
+
+}
+}
+ No class can extend this class
+===================================
+Inheritance
+polymorphism
+Abstraction
+Encapsulation
+Abstraction:
+In Abstraction the internal details of the methods are hidden and we only expose the
+signature of the methods with return types
+Rules:
+We can not create the objects of the abstract classes why because the abstract classes
+they are incomplete
+
+
+
+
