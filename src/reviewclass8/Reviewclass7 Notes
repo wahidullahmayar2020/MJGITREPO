@@ -36,3 +36,32 @@ sequence matters when we are calling something
 
 week day review  classes will start 6:30 then 7:40 to 8:10
 Weekend class will start from 10:15-20
+
+use of constructors:
+Constructors are used to initialize the objects(fields)
+=================================================================
+Inheritance:
+Inheritance is a mechanism in java through which a class can inherit members of another class
+to avoid the code duplication.
+In java three types of inheritances are supported
+1) single
+2) Multilevel
+3)hierarchical
+1) Single inheritances:
+If in an inheritance relationship if there is only one child and one parent class it is called single
+inheritance.
+Multilevel inheritance:
+If we have a chain of inheritance between different classes it is called multilevel inheritance
+A->B->C
+hierarchical inheritance:
+One parent and many children
+Rules
+1) we use extends keyword to define the inheritance relationship
+2) In java a subclass can have only one super class
+3) private fields/methods/constructors do not participate in inheritance
+4) Object class is the super class of all the classes in java
+5) if super class is declared final we can not inherit it.
+6) if a super class has a parameterize constructor child classes must provide a matching constructor
+
+
+
