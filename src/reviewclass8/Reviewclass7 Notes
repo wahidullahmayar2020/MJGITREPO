@@ -1,0 +1,38 @@
+Constructors:
+Is a special block of code that is executed when we create an object of a class
+It is used to initialize the object fields.
+Rules:
+Access modifier:
+we can used access modifiers(public, protected, default(not a keyword), private )
+for the constructors
+most of the times your constructors will have public access modifiers
+if your constructor is public you can create objects of your class anywhere in your
+project
+if constructors have the default access modifier we can only create the objects of that
+class within the same package.
+
+if the constructor is protected and if we are inside the same package
+the behaviours will be same as of default we can create an object of that class.
+but if we are outside of the package we can not access protected member(fields methods constructor)
+by creating an object of that class but we can directly call them or use them inside our class
+
+Non Access modifiers:
+static is not allowed because constructor belong to objects not classes
+final is not allowed because constructs don not participate in inheritance if something is not
+participating in inheritance it does not make sense to stop it from being overridden
+
+abstract means something is incomplete and child class should complete that thing but
+because constructors don not participate in inheritance if something is not
+participating in inheritance how a child classes can complete that thing.
+
+constructors  do not have return types
+
+constructors can not have any name like methods they must have the same name as of the class name;
+There is no difference when it comes to passing the arguments to a constructors or a method
+
+NOTE:
+When we are defining something sequence does not matter
+sequence matters when we are calling something
+
+week day review  classes will start 6:30 then 7:40 to 8:10
+Weekend class will start from 10:15-20
