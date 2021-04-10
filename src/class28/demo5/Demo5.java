@@ -1,4 +1,4 @@
-package class28;
+package class28.demo5;
 
 public class Demo5 implements I1,I2{
     public void method1(){

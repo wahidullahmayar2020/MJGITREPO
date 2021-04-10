@@ -1,4 +1,4 @@
-package class28;
+package class28.demo5;
 
 public class Tester {
     public static void main(String[] args) {
