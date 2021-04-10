@@ -11,7 +11,7 @@ public  interface IParent {
 
      void method1();
 }
-interface IParent2{
+ interface IParent2{
     void method2();
 }
 
