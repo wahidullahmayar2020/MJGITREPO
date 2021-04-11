@@ -1,0 +1,47 @@
+SuperKeyword
+we can use super keyword to access constructors or methods or fields from parent class in
+child class
+when it makes sense to use super keyword
+if we have the same name fields or methods in the parent and child classes then we can
+use the super keyword with the "this" keyword to distinguish between the fields of child
+class and parent class
+Most widely use of super
+Super is widely used to call the constructor from the parent class
+============================================
+Method overloading
+Overloading is a mechanism in java where same method or constructor
+can exist with different parameters within a class.
+Uses
+cleaner code
+we do not need to come up with a new name every time if a method is doing the same thing
+but with different parameters
+We can overload our methods
+    1) Changing the number of parameters
+    2) changing the type of parameters
+    3) by changing the sequence of parameters
+
+we call it static binding ,compile time polymorphism early binding.
+=============================================
+Method Overriding:
+A mechanism through which parent and child classes can have the same methods
+if child class does not like the implementation from the parent class
+    1)we can not override private methods and constructor because they don't participate in
+    the inheritance and are not available in child classes
+    2)we can not decrease the visible because it breaks the inheritance contract
+    3) static methods can not be overridden they belong to class not object we can hide/re-declare
+    4) methods must have the same signature and return type
+    5) final methods can not be overridden
+    6)subclass in different package can only override methods that are
+    public or protected
+    7) there should an inheritance relationship
+
+it is also called dynamic binding, late binding,runtime polymorphism.
+=================================================================
+Final Keyword:
+Final is non access modifier that used when we have to say something
+is complete and don't need modification
+when used with class no other class can inherit it
+when used with variables we can not change the value of that variable
+when used with methods those methods can not be overridden.
+
+

@@ -1,7 +1,7 @@
 package reviewclass7.methods;
 
 
-import com.sun.istack.internal.NotNull;
+
 
 public class MethodDemo3 {
 
@@ -9,7 +9,7 @@ public class MethodDemo3 {
      *
      * @param name should not be null
      */
-    void methodDemo( @NotNull String name){
+    void methodDemo( String name){
 
         System.out.println(name.length());
     }
