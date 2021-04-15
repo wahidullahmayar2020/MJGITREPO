@@ -1,0 +1,28 @@
+Four Pillars of OOPS
+1) Inheritance
+2) Polymorphism
+3) Abstraction
+4) Encapsulation
+Inheritance:
+It is a mechanism that allows to inherit properties and methods from one class to other class
+to avoid duplication we use extends keyword to inherit from one class.
+2) Polymorphism
+Capability of a method to do different things based on obj that is acting upon
+same method can act in many different forms we do not to come up with different names
+everytime we need slightly different behaviour
+we can achieve polymorphism through method overloading and method overriding
+3) Abstraction
+Abstraction is a process of hiding implementation details and showing
+only functionality to the user. Abstraction is what an Object does instead of how it
+does it
+Parent class we only define how the method will look like
+    1)what the method will return
+    2)what will be the name of the method
+    3) how many and which type of arguments it will take
+Child class now provides the implementation
+Rules for abstract class:
+    1) we can not create the object of the abstract classes
+    2) we can not decease the visibility of the access modifier
+    3) Child class must define the abstract methods or it should be declared as abstract
+We can also achieve Interfaces:
+

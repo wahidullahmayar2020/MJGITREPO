@@ -7,8 +7,7 @@ public class Parent {
 
     public Parent(String name, String address) {
      this.name=name;
-     this.address=address;
-    }
+     this.address=address;    }
     void printInfo(){
         System.out.println("Name "+name+" Address "+address);
     }
