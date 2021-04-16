@@ -1,4 +1,4 @@
-package reviewclass10;
+package reviewclass10.abstractclasses;
 
 public class DatabaseTester {
     public static void main(String[] args) {
@@ -7,5 +7,6 @@ public class DatabaseTester {
         dataBase.writeFromDataBase("Database1");
         dataBase.modifyFromDataBase("Database1");
         //DataBase dataBase1= new Database(); CE
+
     }
 }

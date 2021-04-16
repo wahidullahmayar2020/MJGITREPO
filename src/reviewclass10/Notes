@@ -24,5 +24,44 @@ Rules for abstract class:
     1) we can not create the object of the abstract classes
     2) we can not decease the visibility of the access modifier
     3) Child class must define the abstract methods or it should be declared as abstract
+    4) we can not declare a method as private and abstract at the same time because
+    private methods do not participate in inheritance
+    5) we can not declare methods as final and abstract at the same time because
+    final means something is complete and abstract means something is incomplete and requires
+    implementation by child classes
+    6) we can not make a method as static and abstract at the same time because static
+    methods can not be overridden rather they are re-declared in child class and we call it method hiding
+    7) return type in the parent and child classes must be same
+    8) we can not declare constructors as abstract
+    9) we can declare a class as abstract even though there are no abstract methods in it
+    10) we can not use abstract keyword with fields in abstract class only allowed
+    with methods and class names
+
+
 We can also achieve Interfaces:
+interface is collection of abstract, static and default methods
+we should be creating interfaces when our child classes have to implement
+many different unrelated behaviours
+if behaviours are closely related and we want implemented and unimplemented
+methods we should go for Abstract class
+Interface Rules:
+1) for interfaces we use interface keyword instead of class
+2) Interfaces are by default abstract
+3) all the variables in an interface are by default public static final
+4) we can not make instance fields in interfaces
+5) we can not use abstract keyword with the fields because all the fields are
+by default public static final
+6) all the methods are by default public abstract
+7) we can have default methods we can have static methods in interfaces but the
+are used to support lambda expression and functional programming advance concepts
+that we will not discuss
+8) Interfaces can not instance fields that's why they don't have constructors
+9) interfaces don't have instance methods
+10) we can not create objects of interfaces
+11) interfaces support multiple inheritance.
+12) we use implements keyword for interfaces.
+===============================================
+Encapsulation:
+
+
 

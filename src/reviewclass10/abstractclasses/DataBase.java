@@ -1,8 +1,8 @@
-package reviewclass10;
+package reviewclass10.abstractclasses;
 
 public abstract class DataBase {
 
-    public  abstract void readFromDataBase(String databaseName);
+    public abstract void readFromDataBase(String databaseName);
     public abstract void writeFromDataBase(String databaseName);
     public abstract void modifyFromDataBase(String databaseName);
 
