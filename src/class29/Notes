@@ -1,0 +1,16 @@
+Variables
+They hold data
+    1) one value at a time what if we need to store more data we will have to declare
+    that many variables not feasible.
+Arrays:
+Consecutive memory location pointed by a single variable
+    1) Fixed in size once the array is declared we can not change the size
+    2) If we declare a bigger array at the start we may be wasting memory
+    3) if we declare a smaller array we have to do a lot of work to accommodate
+    entries beyond the size of the array
+To Rescue we have Collection framework in java
+Collections Framework
+is a collection of classes and interfaces that can hold objects as a single unit
+like arrays but with a lot flexibility.
+
+
