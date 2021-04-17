@@ -13,4 +13,19 @@ Collections Framework
 is a collection of classes and interfaces that can hold objects as a single unit
 like arrays but with a lot flexibility.
 
+Pros
+    1) Less code built-in methods to solve common problems that we may face
+    2) no Fixed sizes all the classes in collections framework are flexible
+    we don't need to declare the size upfront
+    3) memory efficient
+
+Cons:
+we can not use primitive data types in collections framework
+to overcome this issue we have wrapper classes.
+Wrapper classes:
+wrapper classes are just object equivalent of primitive types
+for all of the primitive types we have wrapper classes
+we can use them in collections framework
+
+
 

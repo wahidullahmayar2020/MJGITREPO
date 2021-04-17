@@ -21,4 +21,5 @@ public class Demo2 {
         //arrayList.add("sbgks");
         System.out.println(arrayList.contains(10));
     }
+
 }
