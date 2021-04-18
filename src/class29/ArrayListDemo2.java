@@ -8,6 +8,7 @@ public class ArrayListDemo2 {
         subjects.add("SDLC");
         subjects.add("Manual Testing");
         subjects.add("Java");
+        subjects.add("Java");
         subjects.add("Git");
         subjects.add("Selenium");
         subjects.add("TestNG");
