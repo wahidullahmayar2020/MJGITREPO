@@ -11,15 +11,15 @@ public class IteratorDemo2 {
         subjects.add("Java");
         subjects.add("TestNG");
         Iterator<String> iterator=subjects.iterator();
+        System.out.println(subjects);
        while (iterator.hasNext()){
-           System.out.println(iterator.next());
-           System.out.println(iterator.hasNext());
-           System.out.println(iterator.next());
-           if(iterator.next().length()>4){
+         String var=  iterator.next();
+           if(var.length()>4){
                iterator.remove();
            }
 
        }
+        System.out.println(subjects);
 
 
     }
