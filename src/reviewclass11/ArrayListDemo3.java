@@ -12,6 +12,8 @@ public class ArrayListDemo3 {
         cities.add("virginia");
         cities.add("Palm beach");
         cities.add("Casablanca");
+        cities.remove("Chiacgo");
+        System.out.println(cities);
         if(cities.subList(0,1) instanceof ArrayList){
             System.out.println("Possible ");
             ArrayList<String> limitedCities= (ArrayList<String>) cities.subList(0,1);// Why Class cast error
