@@ -32,7 +32,8 @@ public class ArraysListDemo2 {
         int firstIndex=2;
         int lastIndex=4;
         System.out.println("=====subList==========");
-     //   ArrayList<String> limitedCities= (ArrayList<String>) cities.subList(firstIndex,lastIndex);// Why Class cast error
+
+
         ArrayList<String> limitedCities= new ArrayList<>(cities.subList(firstIndex,lastIndex)) ;
         List<String> limitedCities1= cities.subList(firstIndex,lastIndex);
         System.out.println(limitedCities);

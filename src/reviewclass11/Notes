@@ -20,3 +20,9 @@ Methods in ArrayList Class:
     get(int index) ---- returns the element specified index
     remove(int index) -- removes the elements at specified index
     remove(Object)  --object will be removed
+
+LinkedList:
+ 1) It can hold duplicate values not issues
+ 2) Insertion order is maintained
+ 3) Dynamic in nature can adjust the size at run time automatically
+ 4) Underlying data structure is doubly LinkedList

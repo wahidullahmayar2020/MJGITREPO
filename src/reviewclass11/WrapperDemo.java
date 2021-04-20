@@ -11,6 +11,6 @@ public class WrapperDemo {
 
         Integer i=10;
         String iString=i.toString();
-        System.out.println(i.toString());
+        System.out.println(i);
     }
 }
