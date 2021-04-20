@@ -26,3 +26,24 @@ LinkedList:
  2) Insertion order is maintained
  3) Dynamic in nature can adjust the size at run time automatically
  4) Underlying data structure is doubly LinkedList
+
+ Sets:
+ Is an interface we know three classes which implement Set interface
+ 1)HashSet, LinkedHashSet, TreeSet
+ 1) HashSet(Most Widely used)
+    ===Properties
+    1) no Duplicates
+    2) no order
+    3) Use when Fast search is required
+    4) Allows null value
+2) LinkedHashSet
+    1) no duplicates
+    2) insertion order is maintained
+    3) Nulls are allowed
+3) TreeSet
+    1) No duplicates
+    2) all the elements are sorted in natural order
+
+
+
+
