@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class ArraysList {
+public class ArraysListDemo {
     public static void main(String[] args) {
         ArrayList<String> cities=new ArrayList<>();
         cities.add("Marrakech");

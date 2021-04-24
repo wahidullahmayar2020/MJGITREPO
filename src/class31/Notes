@@ -41,7 +41,8 @@ When to use:
         3) data is sorted in natural order
     When to use:
         1) When we have to remove the duplicates from the data and we don't want to lose the order
+Maps:
+Map is interface that helps us store the data in the form of key value pairs
 
-    Maps
 
 
