@@ -17,6 +17,7 @@ public class CreatingNewFiles {
         System.out.println(path);
         XSSFWorkbook xssfWorkbook=new XSSFWorkbook();
        Sheet sheet= xssfWorkbook.createSheet("Sheet1");
+        Sheet sheet2= xssfWorkbook.createSheet("Sheet2");
        Row row=sheet.createRow(0);
         Cell cell=row.createCell(0);
         cell.setCellValue(10);
