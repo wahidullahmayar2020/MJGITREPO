@@ -5,3 +5,7 @@ Steps:
 2) Create the objects of FileInputStream/FileOutputStream
 3) Depending upon the file type we create the objects of Properties/XSSFWork
 4) We read the data/write and close our file.
+================================================
+Exceptions are some kind of issues/errors that disrupts the normal flow of code
+during runtime and other important lines of code are not executed due
+to that issue.
