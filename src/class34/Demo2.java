@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class Demo2 {
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws FileNotFoundException {
         int[] arr={10,20};
 
         int index=-1;
@@ -24,7 +24,7 @@ public class Demo2 {
 
         String path="C:\\Users\\Asghar Nazir\\Desktop\\Memory\\Test.xlsx";
 
-
+        FileInputStream fileInputStream2=new FileInputStream(path);
         File file=new File(path);
             if(file.exists()){
                 System.out.println("File foud");
